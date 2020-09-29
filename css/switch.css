@@ -1,0 +1,64 @@
+@import './index.css';
+
+
+header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--GrayishBlue)
+}
+
+.switch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a{
+    min-width: 75px;
+    min-height: 40px;
+    background: linear-gradient(var(--LinearGradient));
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    margin: auto 30px;
+    cursor: pointer;
+}
+
+.b{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.monthly{
+    transform: translateX(100%);
+}
+
+.annually{
+    transform: translateX(-15%);
+}
+
+.active{
+    color: #000;
+    transition: all .3s ease;
+}
+
+.unactive{
+    color: var(--LightGrayishBlue);
+    transition: all .3s ease;
+}
