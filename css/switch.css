@@ -13,13 +13,16 @@ header{
 h1{
     text-align: center;
     margin-bottom: 50px;
-    color: var(--GrayishBlue)
+    color: var(--GrayishBlue);
+    margin-top: 50px;
 }
 
 .switch{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width:300px;
+    margin: auto;
 }
 
 .a{
@@ -54,7 +57,7 @@ h1{
 }
 
 .active{
-    color: #000;
+    color: #555;
     transition: all .3s ease;
 }
 

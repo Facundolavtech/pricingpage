@@ -1,5 +1,6 @@
 @import './index.css';
 
+
 .card{
     width: 90%;
     background-color: var(--VeryLightGrayishBlue);
@@ -27,9 +28,23 @@
     color: #fff;
 }
 
+.card a:hover{
+    background: #fff;
+    color: hsl(237, 63%, 64%);
+    transition: background .3s;
+    border: 2px solid hsl(237, 63%, 64%);
+}
+
 .card:nth-child(2) a{
     background: #fff;
     color: hsl(237, 63%, 64%);
+}
+
+.card:nth-child(2) a:hover {
+    background: linear-gradient(var(--LinearGradient));
+    color: #fff;
+    transition: background .3s;
+    border: 2px solid #fff;
 }
 
 .card p{
@@ -68,4 +83,5 @@
     font-size: .9em;
     letter-spacing: 3px;
     color: #fff;
+    border: 2px solid transparent;
 }
